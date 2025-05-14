@@ -30,6 +30,13 @@ body {
   line-height: 1.6;
 }
 
+.logo-img {
+  width: 120px;  /* Ajusta el tamaño del logo */
+  height: auto;  /* Mantiene la proporción del logo */
+  display: block;
+  margin: 0 auto; /* Centra la imagen */
+}
+
 .container {
   width: 90%;
   max-width: 1200px;
@@ -580,7 +587,7 @@ nav {
 }
 
 .app-badge {
-  height: 50px;
+  height: 10px;
   transition: transform 0.3s ease;
 }
 
